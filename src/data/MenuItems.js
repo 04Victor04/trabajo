@@ -1,4 +1,4 @@
-import { Busqueda } from '../components/Busqueda';
+import Busqueda from '../components/Busqueda';
 export const MenuItems = [
   {
     id: 2,
