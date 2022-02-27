@@ -13,8 +13,12 @@ class BootstrapHeader extends React.Component {
     return (
       <Navbar collapseOnSelect expand="lg" bg="light">
         <Container>
-          <Navbar.Brand href="#app">
-            <i className="fas fa-user-graduate" />
+          <Navbar.Brand href="#home">
+          <img
+              className="logo-image"
+              src="https://images.vexels.com/media/users/3/137425/isolated/lists/f2ea1ded4d037633f687ee389a571086-logotipo-de-icono-de-youtube.png"
+            />
+            
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse
