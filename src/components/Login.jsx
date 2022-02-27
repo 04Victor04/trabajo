@@ -3,7 +3,6 @@ import {Container,Form,Button} from 'react-bootstrap';
 import '../css/login.css';
 import Prueba from './Prueba';
 import {Registrocss} from '../data/Registrocss';
-import Registro from './Registro';
 
 
 class Login extends React.Component{

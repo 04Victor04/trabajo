@@ -1,10 +1,14 @@
+import React from react;
+import './App.css';
 import Login from './components/Login';
+import {Container} from 'react-bootstrap';
 
 function App() {
   return (
-      <div className="divLogin">
+    
+      <Container className="divLogin">
         <Login />
-      </div>
+      </Container>
   );
 }
 

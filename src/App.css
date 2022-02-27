@@ -1,13 +1,9 @@
-.headerapp{
-  text-align: center;
-}
-.tamañoImagen{
-  padding-top: 60px;
-  width: 30%;
-  height: 50%;;
-}
+
 .divLogin{
   padding-top: 50px;
   text-align: center;
-  
+  background-image: url('https://img.freepik.com/vector-gratis/fondo-blanco-moderno-efecto-lineas-doradas_181182-189.jpg://img.freepik.com/vector-gratis/fondo-abstracto-formas-blancas_79603-1362.jpg?size=626&ext=jpg://img.freepik.com/vector-gratis/fondo-hexagonal-oscuro-color-degradado_79603-1409.jpg?size=626&ext=jpg');
+  content: '';
+  display: block;
+  padding-bottom: 60%;
 }
