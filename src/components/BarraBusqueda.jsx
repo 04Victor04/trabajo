@@ -16,7 +16,6 @@ class BarraBusqueda extends React.Component {
       <div class="w3-container w3-red">
         <form className="ui form" onSubmit={this.onFormSubmit} >
           <div className="field">
-            <label>Busqueda de videos</label>
             <img
               className="logo-image"
               alt="Girl in a jacket" width="300" height="100"

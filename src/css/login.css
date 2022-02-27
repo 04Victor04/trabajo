@@ -1,0 +1,35 @@
+.divForms{
+  display: inline-block;
+  text-align: left;
+  padding-top: 100px;
+  
+}
+button{
+  text-align: center;
+}
+.botonEnviar{
+  margin-top: 50px;
+  width: 100px;
+  height: 40px;
+}
+.styleLabel{
+  font-size: 30px;
+  font-family: Arial;
+  font-weight: bold;
+}
+.error{
+  font-size: 30px;
+  font-family: Arial;
+  font-weight: bold;
+  color:rgb(241, 12, 12);
+  margin-top: 30px;
+}
+/*
+Para meter el border
+.formularioLogin{
+  padding-bottom: 10px;
+  border-style: solid;
+  padding-top: 10px;
+  height: 300px; 
+}
+*/

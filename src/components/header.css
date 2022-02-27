@@ -1,5 +1,7 @@
 .header-navbar {
-  background: linear-gradient(90deg, #ff0000 40%, rgb(255, 0, 0));
+  /*background: linear-gradient(90deg, #ff0000 40%, rgb(255, 0, 0));*/
+  background-color: #ff0000;
+  
   height: 80px;
   display: flex;
   justify-content: center;
@@ -20,12 +22,6 @@
   vertical-align: middle;
 }
 
-.fa-user-graduate {
-  margin-left: 0.5rem;
-  font-size: 1.6rem;
-  vertical-align: middle;
-}
-
 .navbar-menu {
   display: grid;
   grid-template-columns: repeat(3, auto);
@@ -34,6 +30,7 @@
   text-align: center;
   width: 80vw;
   justify-content: end;
+  background-color: #ff0000;
 }
 
 .navbar-link {
@@ -77,8 +74,10 @@
 @media screen and (max-width: 1310px) {
   .header-navbar {
     position: relative;
+    background-color: #ff0000;
   }
   .navbar-menu {
+    background-color: #ff0000;
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -117,16 +116,6 @@
     top: -6px;
     left: -30px;
     transform: translate(25%, 50%);
-  }
-
-  .menu-icon {
-    display: block;
-    position: absolute;
-    top: 0;
-    right: 0;
-    transform: translate(-100%, 60%);
-    font-size: 1.8rem;
-    cursor: pointer;
   }
 
   .navbar-link-mobile {
