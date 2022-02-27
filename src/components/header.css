@@ -1,5 +1,5 @@
 .header-navbar {
-  background: linear-gradient(90deg, #ffffff 40%, rgb(165, 158, 158));
+  background: linear-gradient(90deg, #ff0000 40%, rgb(255, 0, 0));
   height: 80px;
   display: flex;
   justify-content: center;
@@ -8,7 +8,7 @@
 }
 
 .navbar-logo {
-  color: #312f2f;
+  color: #ff0000;
   justify-self: start;
   margin-left: 20px;
   cursor: pointer;
@@ -37,23 +37,23 @@
 }
 
 .navbar-link {
-  color: #312f2f;
+  color: #ff0000;
   text-decoration: none;
   padding: 0.5rem 1rem;
   cursor: pointer;
 }
 
 .navbar-link:hover {
-  background-color: #2d2d38;
+  background-color: #ff0000;
   font-weight: bold;
-  color: #ffffff;
+  color: #ff0000;
   border-radius: 4px;
   transition: all 0.2s ease-out;
 }
 
 .navbar-link-profile {
-  color: #ffffff;
-  background-color: #181223;
+  color: #ff0000;
+  background-color: #ff0000;
   text-decoration: none;
   border-radius: 4px;
   padding: 0.5rem 1rem;
@@ -61,13 +61,13 @@
 }
 
 .navbar-link-profile:hover {
-  background-color: #ffffff;
+  background-color: #ff0000;
   color: rgb(219, 16, 16);
   transition: all 0.2s ease-out;
 }
 
 .fa-bars {
-  color: #312f2f;
+  color: #ff0000;
 }
 
 .menu-icon {
@@ -91,7 +91,7 @@
   }
 
   .navbar-menu.active {
-    background: rgb(165, 158, 158);
+    background: rgb(255, 0, 0);
     left: 0;
     opacity: 1;
     transition: all 0.5s ease;
@@ -99,7 +99,7 @@
   }
 
   .navbar-link {
-    color: #312f2f;
+    color: #ff0000;
     font-weight: bold;
     text-align: center;
     padding: 2rem;
@@ -108,7 +108,7 @@
   }
 
   .navbar-link:hover {
-    background-color: #2d2d38;
+    background-color: #ff0000;
     border-radius: 0;
   }
 
@@ -136,16 +136,16 @@
     margin: 2rem auto;
     border-radius: 4px;
     width: 80%;
-    background: #181223;
+    background: #ff0000;
     cursor: pointer;
-    color: #ffffff;
+    color: #ff0000;
     font-weight: bold;
     font-size: 1.5rem;
   }
 
   .navbar-link-mobile:hover {
-    background: #ffffff;
-    color: #d14f4f;
+    background: #ff0000;
+    color: #ff0000;
     font-weight: bold;
     transition: 250ms;
   }
